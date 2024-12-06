@@ -4,3 +4,45 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+
+body{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+.registration-form{
+    background-color: #717171;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 8px #717171;
+    max-width: 400px;
+    width: 100%;
+}
+.registration-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form-list {
+    margin-bottom: 10px;
+}
+.form-list label{
+    display: block;
+    margin-bottom: 5px;
+}
+.form-list input,
+.form-list select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.form-list input[type="submit"] {
+    background-color: #70d354;
+    color: #000;
+    cursor: pointer;
+}
+.form-list input[type="submit"]:hover {
+    background-color: #95ff70;
+}
